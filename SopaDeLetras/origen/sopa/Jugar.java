@@ -17,7 +17,7 @@ public class Jugar {
     public int cantEncontradas() {
         
         int cantEncontradas = 0;
-        for (int i = 0; i < sopa.Palabras.length; i++) {
+        for (int i = 0; i < sopa.Palabras.length; i++) { // Bucle for nos permite realizar una y otra acción, siempre y cuando se cumpla una condición booleana.
             if(sopa.Palabras[i].encontrada == true)
                 cantEncontradas ++;
         }
