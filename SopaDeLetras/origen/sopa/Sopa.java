@@ -262,6 +262,6 @@ public class Sopa {
             }
         }
         
-        System.out.println(Colores.RED+"¡SOPA DE LETRAS RESUELTA!"+Colores.RESET);
+        System.out.println(Colores.RED+"¡SOPA DE LETRAS RESUELTA!"+Colores.RESET); // Con esta instrucción se imprime el texto especificado dentro de los paréntesis.
     }
 }
